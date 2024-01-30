@@ -663,6 +663,10 @@ video {
   align-self: center;
 }
 
+.whitespace-normal {
+  white-space: normal;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -699,12 +703,20 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-scroll {
   background-attachment: scroll;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-2 {
